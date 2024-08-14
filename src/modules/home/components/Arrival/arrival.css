@@ -1,0 +1,24 @@
+.SlideSwiper .swiper-button-next {
+  top: auto !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  user-select: none;
+}
+.SlideSwiper .swiper-button-prev {
+    top: auto !important;
+    left: auto !important;
+    user-select: none;
+    bottom: 20px !important;
+    right: 70px !important;
+  }
+.SlideSwiper .swiper-button-prev:after, .SlideSwiper .swiper-rtl .swiper-button-next:after, .SlideSwiper .swiper-button-next:after, .SlideSwiper .swiper-rtl .swiper-button-next:after {
+    font-size: 16px !important;
+    height: 50px;
+    padding: 0px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

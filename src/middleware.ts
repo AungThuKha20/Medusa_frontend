@@ -26,6 +26,7 @@ async function getRegionMap() {
     }).then((res) => res.json())
 
     if (!regions) {
+      console.log(' there is no regions');
       notFound()
     }
 
